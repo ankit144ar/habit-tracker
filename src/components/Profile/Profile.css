@@ -1,0 +1,16 @@
+.white-card-container {
+    width: 15rem;
+    height: 10rem;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.value {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 64px;
+}

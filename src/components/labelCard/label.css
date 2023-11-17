@@ -1,0 +1,36 @@
+.label-display {
+    display: flex;
+    width: 34rem;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+}
+
+.add-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap:2rem;
+}
+.add-label input {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    flex-grow: 1;
+}
+
+.add-btn{
+    padding: 0.5rem;
+    background-color: var(--clr-primary);
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    border:none;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    outline: 2px solid var(--clr-primary);
+   
+    
+}

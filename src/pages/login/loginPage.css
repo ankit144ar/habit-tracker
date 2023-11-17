@@ -1,0 +1,118 @@
+.login-main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page {
+    box-shadow: 0 4px 8px 8px var(--clr-secondary);
+    border-radius: 0.5rem;
+    width: 30rem;
+    padding: 2rem;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.login-page h3 {
+    font-size: 1.5rem;
+}
+
+.login-element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+
+.login-element label {
+    font-size: 1.2rem;
+}
+
+.input-element {
+    height: 3rem;
+    width: 100%;
+    border: 1px solid var(--clr-secondary);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-weight: 400px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+
+}
+
+.password-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--clr-secondary);
+    border-radius: 0.3rem;
+    /* padding: 0.5rem; */
+    height: 3rem;
+}
+
+.password-div-input {
+    border: none;
+    outline: none;
+    margin-bottom: 0;
+    height: 2rem;
+}
+.password-icon{
+    padding-right: 0.5rem;
+}
+.password-icon:hover{
+    cursor: pointer;
+}
+.login-btn {
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+    background-color: var(--clr-primary);
+    color: white;
+    border: none;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    box-shadow: 0 0 4px 4px var(--clr-secondary);
+}
+
+.secondary {
+    background-color: var(--clr-secondary);
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}
+
+.link:hover {
+    color: black
+}
+
+label {
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+/* .password-icon {
+    position: relative;
+    bottom: 2.5rem;
+    left: 20rem;
+    display: flex;
+    width: 20px;
+} */

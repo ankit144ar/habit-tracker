@@ -1,0 +1,50 @@
+.habit-container {
+    width: 15rem;
+    height: 10rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #DBEAFE;
+
+}
+.habit-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habit-label {
+    display: flex;
+    gap: 0.3rem;
+    flex-grow: 1;
+}
+
+.habit-label span {
+    width: fit-content;
+    height: 1rem;
+    border-radius: 5px;
+    background-color: #60A5FA;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1rem;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.done-tick {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-description {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+}

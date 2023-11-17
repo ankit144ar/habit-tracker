@@ -1,0 +1,42 @@
+.home-container {
+    min-width: 50rem
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    padding-top:1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.home-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-heading h3:hover{
+color: var(--clr-primary)
+}
+
+.notify{
+    width:100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--clr-primary);
+}
+#welcome-text{
+    font-size: 2.2rem;
+}
+
+.count-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}

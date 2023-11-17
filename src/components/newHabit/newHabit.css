@@ -1,0 +1,84 @@
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(58, 53, 53, 0.516);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    overflow-y: scroll;
+}
+
+.new-habit-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 35rem;
+    background-color: white;
+}
+
+.new-habit-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.new-habit-header span:hover {
+    cursor: pointer;
+}
+
+.new-habit-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.edit-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.edit-icons svg {
+    font-size: 1.3rem;
+}
+.edit-icons svg:hover {
+    color: var(--clr-primary);
+}
+
+.label {
+    padding-bottom: 0.3rem;
+}
+
+.display-flex {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.input {
+    height: 2.5rem;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+
+}
+
+select {
+    height: 2.5rem;
+    background-color:
+        #F7F7F7;
+    font-size: 1rem;
+}
+
+.btn-new {
+    align-self: flex-end;
+}
+
+@media (max-width:450px) {
+    .new-habit-body p {
+        padding-left: 0;
+    }
+}

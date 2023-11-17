@@ -1,0 +1,11 @@
+export const CREATE_MODAL_OPEN = "CREATE_MODAL_OPEN";
+export const CREATE_MODAL_CLOSE = "CREATE_MODAL_CLOSE";
+export const EDIT_MODAL_OPEN = "EDIT_MODAL_OPEN";
+export const EDIT_MODAL_CLOSE = "EDIT_MODAL_CLOSE";
+export const EDITED_DATA = "EDITED_DATA"
+export const CREATE_HABIT = "CREATE_HABIT";
+export const COMPLETE = "COMPLETE";
+export const DELETE = "DELETE";
+export const ARCHIVE = "ARCHIVE";
+export const EDIT_ID = "EDIT_ID"
+export const CLEAR_EDIT_ID = "CLEAR_EDIT_ID"

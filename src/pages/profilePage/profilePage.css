@@ -1,0 +1,29 @@
+
+#profile{
+    align-self: flex-start;
+
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    font-size: 1.5rem;
+}
+
+.quote{
+    display: flex;
+}
+.quote-content{
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+
+}
+
+em{
+    font-size: 2rem;
+}
+

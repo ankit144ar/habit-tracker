@@ -1,0 +1,10 @@
+.modalContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(58, 53, 53, 0.516);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}

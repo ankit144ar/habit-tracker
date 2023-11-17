@@ -1,0 +1,28 @@
+.search-container{
+    border:1px solid #D0D0D8;
+    display: flex;
+    gap:1rem;
+    width:35rem;
+    height: 3rem;
+    background-color: white;
+    position: relative;
+    padding: 0 0.5rem
+}
+
+.search-container span{
+    display: flex;
+    align-items: center;
+  
+}
+
+.search-container svg{
+    font-size: 1.5rem;
+   
+}
+.search-container input{
+    border:none;
+    width:100%;
+    height: 100%;
+    outline: none;
+    font-size: 1rem;
+}
